@@ -1,8 +1,9 @@
 import junit.framework.TestCase;
 //Choose between, java, scala, groovy
 //import tennis.java.TennisGame;
-import tennis.scala.TennisGame;
-//import tennis.groovy.TennisGame;
+//import tennis.java.TennisGame;
+//import tennis.scala.TennisGame;
+import tennis.groovy.TennisGame;
 
 /*
 Based on https://raw.githubusercontent.com/follesoe/TennisKataJava/master/src/TennisGameTest.java
@@ -41,7 +42,6 @@ public class TennisGameTest extends TestCase {
         String score = game.getScore();
         assertEquals("Love,Thirty", score);
     }
-
 
     public void testPlayerOneWinsFirstThreeBalls(){
         createScore(3, 0);
